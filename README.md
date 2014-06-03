@@ -71,8 +71,8 @@ For current and past comapnies it also provides the details of the companies lik
 
     [
     [0] {
-             :current_company => "LinkedIn",
-               :current_title => "CEO",
+                        :name => "LinkedIn",
+               :title => "CEO",
          :current_company_url => "http://www.linkedin.com",
                  :description => nil,
         :linkedin_company_url => "http://www.linkedin.com/company/linkedin?trk=ppro_cprof",
@@ -85,8 +85,8 @@ For current and past comapnies it also provides the details of the companies lik
                      :address => "2029 Stierlin Court  Mountain View, CA 94043 United States"
     },
     [1] {
-             :current_company => "Intuit",
-               :current_title => "Member, Board of Directors",
+	                :name => "Intuit",
+               :title => "Member, Board of Directors",
          :current_company_url => "http://network.intuit.com/",
                  :description => nil,
         :linkedin_company_url => "http://www.linkedin.com/company/intuit?trk=ppro_cprof",
@@ -99,8 +99,8 @@ For current and past comapnies it also provides the details of the companies lik
                      :address => "2632 Marine Way  Mountain View, CA 94043 United States"
     },
     [2] {
-             :current_company => "DonorsChoose",
-               :current_title => "Member, Board of Directors",
+                        :name => "DonorsChoose",
+               :title => "Member, Board of Directors",
          :current_company_url => "http://www.donorschoose.org",
                  :description => nil,
         :linkedin_company_url => "http://www.linkedin.com/company/donorschoose.org?trk=ppro_cprof",
@@ -113,14 +113,14 @@ For current and past comapnies it also provides the details of the companies lik
                      :address => "213 West 35th Street 2nd Floor East New York, NY 10001 United States"
     },
     [3] {
-            :current_company => "Malaria No More",
-              :current_title => "Member, Board of Directors",
+                       :name => "Malaria No More",
+              :title => "Member, Board of Directors",
         :current_company_url => nil,
                 :description => nil
     },
     [4] {
-             :current_company => "Venture For America",
-               :current_title => "Member, Advisory Board",
+             :name => "Venture For America",
+               :title => "Member, Advisory Board",
          :current_company_url => "http://ventureforamerica.org/",
                  :description => nil,
         :linkedin_company_url => "http://www.linkedin.com/company/venture-for-america?trk=ppro_cprof",
