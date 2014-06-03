@@ -149,7 +149,7 @@ module Linkedin
 
           company               = {}
           company[:title]       = node.at('h3').text.gsub(/\s+|\n/, ' ').strip if node.at('h3')
-          company[:name]     = node.at('h4').text.gsub(/\s+|\n/, ' ').strip if node.at('h4')
+          company[:company]     = node.at('h4').text.gsub(/\s+|\n/, ' ').strip if node.at('h4')
           company[:description] = node.at(".description.#{type}-position").text.gsub(/\s+|\n/, ' ').strip if node.at(".description.#{type}-position")
 
           start_date  = node.at('.dtstart')['title'] rescue nil
